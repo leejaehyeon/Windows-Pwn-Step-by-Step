@@ -53,6 +53,7 @@ Basic pwntools for Windows written in python 2.7
     ```
     pip install capstone
     ```
+    for keystone, you nee to install OpenSSL64 (see the scrypt module github page)
     
 ### Install
 ```
@@ -61,17 +62,17 @@ git clone https://github.com/masthoon/pwintools.git
 - Revise [setup.py](#) from
     ```
     install_requires=[
-        'PythonForWindows==0.4',
+        'PythonForWindows==0.5',
     ],
     ```
     to
     ```
     install_requires=[
-        'PythonForWindows==0.5',
+        'PythonForWindows==0.6',
     ],
     ```
 ```
-python setup.py
+python setup.py install
 ```
 
 
